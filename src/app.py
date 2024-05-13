@@ -3,7 +3,7 @@ from fastai.vision.all import *
 import io
 
 # Load the model
-model = load_learner('models/new_model.pkl')
+model = load_learner('models/model.pkl')
 
 st.title('Cat Classifier: Appa vs Momo')
 
